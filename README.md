@@ -85,10 +85,10 @@ Name: custo_operacao_dia, dtype: float64
 
 ## 🔮 Melhorias Futuras
 
-* Dashboard interativo (ex.: Streamlit ou Power BI) para consulta dos indicadores sem precisar rodar o notebook — *Sugestão*
-* Automatizar a geração mensal do relatório a partir de novos arquivos de entrada — *Sugestão*
-* Adicionar testes automatizados para validar a integridade dos merges — *Sugestão*
-* Expandir a análise para prever, com base no histórico, meses/setores com maior risco de descumprir metas — *Sugestão*
+* Dashboard interativo (ex.: Streamlit ou Power BI) para consulta dos indicadores sem precisar rodar o notebook 
+* Automatizar a geração mensal do relatório a partir de novos arquivos de entrada 
+* Adicionar testes automatizados para validar a integridade dos merges
+* Expandir a análise para prever, com base no histórico, meses/setores com maior risco de descumprir metas 
 
 ## 📚 Aprendizados
 
