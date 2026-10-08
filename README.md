@@ -39,47 +39,30 @@ Uma empresa do setor industrial poderia utilizar uma análise como essa para emb
 ## 📂 Estrutura do Projeto
 
 ```text
-alpha-sp-analise-producao/
+An-lise-de-Dados-de-Produ-o/
 │
-├── data/
-│   ├── alpha_sp_producao_diaria.csv
-│   └── dados_complementares_alpha_sp.xlsx
-│
-├── notebooks/
-│   └── Desafio_Extra_Alpha_SP.ipynb
-│
-├── README.md
-└── requirements.txt
+├── Desafio_Extra_Alpha_SP.ipynb
+├── alpha_sp_producao_diaria.csv
+├── dados_complementares_alpha_sp.xlsx
+└── README.md
 ```
-
-*Sugestão: caso o repositório também inclua a análise anterior (feita apenas com o CSV, antes do cruzamento com o Excel), ela pode ser adicionada em `notebooks/` como um segundo arquivo, mantendo o histórico de evolução do projeto.*
 
 ## ⚙️ Como Executar
 
 ```bash
-git clone https://github.com/scudelerlucasb-a11y/alpha-sp-analise-producao.git
-cd alpha-sp-analise-producao
+git clone https://github.com/scudelerlucasb-a11y/An-lise-de-Dados-de-Produ-o.git
 ```
 
 Instale as dependências:
 
 ```bash
-pip install -r requirements.txt
-```
-
-*Sugestão de conteúdo para o `requirements.txt`:*
-
-```text
-pandas
-matplotlib
-openpyxl
-jupyter
+pip install pandas matplotlib openpyxl jupyter
 ```
 
 ## ▶️ Como Utilizar
 
-1. Abra o notebook `notebooks/Desafio_Extra_Alpha_SP.ipynb` no Jupyter, VS Code ou Google Colab.
-2. Garanta que os arquivos `alpha_sp_producao_diaria.csv` e `dados_complementares_alpha_sp.xlsx` estejam acessíveis no caminho esperado pelo notebook (pasta `data/`, ou ajuste o caminho nas células de leitura).
+1. Abra o notebook `Desafio_Extra_Alpha_SP.ipynb` no Jupyter, VS Code ou Google Colab.
+2. Mantenha `alpha_sp_producao_diaria.csv` e `dados_complementares_alpha_sp.xlsx` na mesma pasta do notebook.
 3. Execute as células em ordem, do início ao fim.
 
 ## 📊 Exemplo de Uso
